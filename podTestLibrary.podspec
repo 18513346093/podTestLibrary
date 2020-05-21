@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   #s.source_files = 'podTestLibrary/Classes/**/*'
 
-  #s.resources     = 'podTestLibrary/Assets/firstBundel.bundle' # .bundle资源文件
+  s.resources = 'podTestLibrary/Assets/firstBundel.bundle' # .bundle资源文件
    s.vendored_frameworks = 'podTestLibrary/FrameWorks/firstFrameWork.frameWork'
     # s.resource_bundles = {
   #   'sysFrameWork' => ['podTestLibrary/Assets/*.png']
