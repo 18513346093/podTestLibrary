@@ -1,42 +1,32 @@
-#
-# Be sure to run `pod lib lint podTestLibrary.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'podTestLibrary'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of podTestLibrary.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'A short description of sysSDK.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+
+       这是一个sdk
                        DESC
 
-  s.homepage         = 'https://github.com/18513346093/podTestLibrary'
+  s.homepage         = 'https://github.com/18513346093/sysFrame'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '18513346093' => 'sunyongshuai@lionbridgecapital.cn' }
-  s.source           = { :git => 'https://github.com/18513346093/podTestLibrary.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/18513346093/sysFrame.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'podTestLibrary/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'podTestLibrary' => ['podTestLibrary/Assets/*.png']
+  #s.source_files = 'podTestLibrary/Classes/**/*'
+
+  s.resources     = 'podTestLibrary/Assets/firstBundel.bundle' # .bundle资源文件
+   s.vendored_frameworks = 'podTestLibrary/FrameWorks/firstFrameWork.frameWork'
+    # s.resource_bundles = {
+  #   'sysFrameWork' => ['podTestLibrary/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
+
