@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of sysSDK.",
   "description": "这是一个sdk",
-  "homepage": "https://github.com/18513346093/sysFrame",
+  "homepage": "https://github.com/18513346093/podTestLibrary",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "18513346093": "sunyongshuai@lionbridgecapital.cn"
   },
   "source": {
-    "git": "https://github.com/18513346093/sysFrame.git",
+    "git": "https://github.com/18513346093/podTestLibrary.git",
     "tag": "0.1.0"
   },
   "platforms": {
