@@ -1,24 +1,15 @@
 PODS:
-  - podTestLibrary (0.1.0):
-    - SDWebImage
-  - SDWebImage (5.6.1):
-    - SDWebImage/Core (= 5.6.1)
-  - SDWebImage/Core (5.6.1)
+  - podTestLibrary (0.1.0)
 
 DEPENDENCIES:
   - podTestLibrary (from `../`)
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - SDWebImage
 
 EXTERNAL SOURCES:
   podTestLibrary:
     :path: "../"
 
 SPEC CHECKSUMS:
-  podTestLibrary: 9310205df0027ad411faa8d6808817a3d971fefc
-  SDWebImage: 7edb9c3ea661e77a66661f7f044de8c1b55d1120
+  podTestLibrary: 7745a202c21ad70d76502e2a14286b52f156d066
 
 PODFILE CHECKSUM: 3e3080e7f4ef75412720f6deb628c38d6fc0b2d6
 

@@ -19,10 +19,5 @@
     "ios": "8.0"
   },
   "resources": "podTestLibrary/Assets/*.bundle",
-  "vendored_frameworks": "podTestLibrary/FrameWorks/firstFrameWork.frameWork",
-  "dependencies": {
-    "SDWebImage": [
-
-    ]
-  }
+  "vendored_frameworks": "podTestLibrary/FrameWorks/firstFrameWork.frameWork"
 }
